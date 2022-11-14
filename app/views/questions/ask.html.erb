@@ -1,0 +1,6 @@
+<h1 class="m-4">Stupid coaching</h1>
+<h2 class="ms-4 fs-5 gray">Ask your coach anything:</h2>
+<form action="/answer" method="get" data-turbo="false" class="ms-4 font-size-lg">
+  <input type="text" name="question" value="<%= params[:question] %>">
+  <input type="submit" value="Ask!" class="btn btn-info text-light">
+</form>

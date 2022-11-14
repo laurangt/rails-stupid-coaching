@@ -1,0 +1,10 @@
+<h1 class="m-4">Stupid coaching</h1>
+<div class="m-4 border p-3">
+  <p><%= @question %></p>
+  <p class="fst-italic">-You</p>
+</div>
+<div class="m-4 border p-3 bg-warning bg-opacity-10">
+  <p class="fw-bold"><%= @answer %></p>
+  <p class="fst-italic">-Your coach</p>
+</div>
+<p class="m-4"><%= link_to 'Ask another question', ask_path %></p>
